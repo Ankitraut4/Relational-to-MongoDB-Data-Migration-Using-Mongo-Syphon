@@ -1,8 +1,3 @@
-# MongoSyphon
-
-N.B MongoSyphon version 2 has had a considerable overhaul of it's configuration file format and functionality.
-
-
 ## Introduction
 
 MongoSyphon is an Extract/Transform/Load (ETL) Engine designed specifically to Merge and Transform data into Document forms. It can read from RDBMS tables or MongoDB and output to JSON, XML or directly into MongoDB. It performs time and memory efficient joins of data internally where the underlying database does no support it or the merge of data is between multiple sources.
